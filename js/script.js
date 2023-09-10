@@ -8,7 +8,8 @@ pizzaJson.map((item,index ) => {
 
   //preencher os dados de cada pizza
   pizzaItem.querySelector('.pizza-item--img img').src = item.img
-  pizzaItem.querySelector('.pizza-item--price').innerHtml = item.price
+  pizzaItem.querySelector('.pizza-item--price').innerHtml = 'R$ ${item.price.
+  toFixed(2)}'
   pizzaItem.querySelector('.pizza-item--name').innerHtml = item.name
   pizzaItem.querySelector('.pizza-item--desc').innerHtml = item.description
 
