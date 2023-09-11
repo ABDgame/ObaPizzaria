@@ -1,3 +1,28 @@
+//funçoes auxiliares ou uteis
+const seleciona = (elemento) => document.querySelector(elemento)
+const selecionaTodos = (elemento) => document.querySelectorAll(elemento)
+
+const abrirModal = () => {
+  seleciona('.pizzaWindowArea').style.opacity = 0
+  seleciona('.pizzaWindowArea').style.display = 'flex'
+  setTimeout(() => {
+      seleciona('.pizzaWindowArea').style.opacity = 1
+  }, 150)
+}
+const fecharModal = () => {
+  seleciona('.pizzaWindowArea').style.opacity = 0
+  setTimeout(() => {
+      seleciona('.pizzaWindowArea').style.opacity = 1
+  }, 500)
+}
+const botoesFechar = () => {
+  // BOTÕES FECHAR MODAL
+  selecionaTodos('.pizzaInfo--cancelButton, .pizzaInfo--cancelMobileButton').forEach(item) => {
+    item.addEventListener('click', fecharModal)
+  })
+}
+//MAPEAR pizzaJson para gerar lista de pizzas
+
 pizzaJson.map((item,index ) => {
   //console.log(item)
 
