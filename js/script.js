@@ -21,11 +21,10 @@ pizzaJson.map((item,index ) => {
       //abrir janela modal
       document.querySelector('.pizzaWindowArea').style.display = 'flex'
       //preenchimento de dados
-    pizzaItem.querySelector('.pizza-item--img img').src = item.img
-    pizzaItem.querySelector('.pizza-item--price').innerHtml = 'R$ ${item.price.toFixed(2)}'
-    pizzaItem.querySelector('.pizza-item--name').innerHtml = item.name
-    pizzaItem.querySelector('.pizza-item--desc').innerHtml = item.description
-
+    document.querySelector('.pizzaBig img').src = item.img
+    document.querySelector('.pizzaInfo h1').innerHTML = item.name
+    document.querySelector('.pizzaInfo--desc').innerHTML = item.description
+    document.querySelector('.pizzaInfo--actualPrice').innerHTML = `R$ ${item.price.toFixed(2)}`
   })
  document.querySelector('.pizzaInfo--cancelButton').addEventListener('click', () => {
    document.querySelector('.pizzaWindowArea').style.display = 'none'
