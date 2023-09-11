@@ -19,7 +19,7 @@ pizzaJson.map((item,index ) => {
       console.log('Clicou na pizza')
      
       //abrir janela modal
-      document.querySelector('.pizzaWindowArea').style.display = 'flex'
+      //document.querySelector('.pizzaWindowArea').style.display = 'flex'
       //preenchimento de dados
     document.querySelector('.pizzaBig img').src = item.img
     document.querySelector('.pizzaInfo h1').innerHTML = item.name
