@@ -55,10 +55,13 @@ pizzaJson.map((item,index ) => {
     seleciona('.pizzaInfo--desc').innerHTML = item.description
     seleciona('.pizzaInfo--actualPrice').innerHTML = `R$ ${item.price.toFixed(2)}`
  })
+  /*
  document.querySelector('.pizzaInfo--cancelButton').addEventListener('click', () => {
    document.querySelector('.pizzaWindowArea').style.display = 'none'
  })
  document.querySelector('.pizzaInfo--cancelMobileButton').addEventListener('click', () => {
    document.querySelector('.pizzaWindowArea').style.display = 'none'
  })
-})
+ */
+  botoesFechar()
+}) // fim do MAPEAR pizzaJson para gerar lista de pizzas
