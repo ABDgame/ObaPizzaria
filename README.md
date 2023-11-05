@@ -1,5 +1,5 @@
 # ObaPizzaria
-Desenvolvido em HTML, CSS E JAVASCRIPT 
+Landing Page Responsiva para Pizzaria com HTML, CSS e JavaScript!  
 
 CÓDIGO FONTE:
 #
