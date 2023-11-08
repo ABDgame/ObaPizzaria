@@ -15,7 +15,16 @@ html{
     overflow-x: hidden;
 }
 /* Menu */
-
+.content{
+    width: 100vh;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f1e1f;
+    position: fixed;
+    padding-left: 30rem
+}
 
 
 
