@@ -6,7 +6,16 @@
     list-style: none;
     border: none;
     text-decoration: none;
+    font-family:'Poppins', sans-serif;
 }
+html{
+    width: 100vw;
+    height: 100vw;
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+/* Menu */
+
 
 
 
