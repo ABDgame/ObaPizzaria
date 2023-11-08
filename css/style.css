@@ -59,17 +59,61 @@ html{
     border-bottom: 4px solid #ffc506;
     color:#ffc506;
 }
-
-
-
+/* Primeira Seção *
 
 .first-section{
     height: 100vh;
+    background-image: linear-gradient(rgba(29, 29, 29, 0.8),rgba(29, 29, 29, 0.8))url(./img/backgroun.jpg);
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 50px;
     width: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-itens: center;
+}
+.first-section .conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.first-section h1{
+    color: #ffc506;
+    font-size:1.6rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem; 
+}
+.first-section h2{
+    color: rgba(177, 177, 177);
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+.btn button{
+    width: 230px;
+    height: 60px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #ffc586;
+    border-radius: 10px; 
+    color: black;
+    font-weight:700;
+    margin-top: 5rem;
+    transition: all 400ms ease-in;
+}
+.btn button:hover{
+    border: 1px solid #ffc506;
+    background-color: transparent;
+    color: #ffc506;
+}
+btn{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
 }
 
 
