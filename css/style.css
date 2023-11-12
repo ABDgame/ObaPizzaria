@@ -46,9 +46,38 @@ a{
     color: #fff;
     font-size: 16px;
     font-weight: 600;
-
+    padding: 15px 25px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
 }
-
+.btn i{
+   font-size: 25px;
+}
+.btn:hover{
+    background-color: var --second-color;
+}
+section{
+    width: 100%;
+    height: auto;
+    padding: 45px 0 75px 0;
+}
+.section_title{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-bottom:.70px;
+}
+.img_fluid{
+    max-width: 100%;
+    height: auto;
+}
 
 
 
