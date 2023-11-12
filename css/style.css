@@ -167,7 +167,17 @@ header.active{
     display: flex;
     align-items: center;
 }
-
+.swiper-pagination .swiper-pagination-bullet{
+    background-color: #fff;
+    opacity:1;
+    width: 13px !important;
+    height:13px  !important;
+}
+.swiper-pagination .swiper-pagination-bullet-active{
+    background-color: var --yellow-color !important;
+    width: 20px !important;
+    height: 20px !important;
+}
 
 
 
