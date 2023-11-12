@@ -130,7 +130,7 @@ header.active{
     background: url(./img/pizza.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     background-attachment: fixed;
     padding-top: 180px;
     display: flex;
@@ -155,8 +155,10 @@ header.active{
     line-height: 1.6;
 }
 .hero_content-item .btn{
-    padding: 15px;
+    padding: 15px 40px;
 }
+
+
 
 
 
