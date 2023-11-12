@@ -97,6 +97,34 @@ header.active{
     align-items: center;
     width: 100%;   
 }
+.logo{
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    font-weight: 700;
+    font-size: 32px;
+}
+.menu{
+    display: flex;
+    column-gap: 40px;
+}
+.menu.active{
+    transform: translateX(0);
+}
+.menu li a {
+    color: black;
+    font-size: 18px;
+    transition: .3s;
+}
+.menu li a.active,
+.menu li a:hover{
+    color: var --yellow-color;
+}
+.close_icon,
+.toggle_icon{
+    display: none;
+    font-size: 40px;
+}
+
 
 
 
