@@ -141,9 +141,22 @@ header.active{
     margin:0 !important; 
 }
 .hero_content-item{
-    padding
+    padding-right: 10px;
 }
-
+.hero_content-item h1{
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+    font-size: 48px;
+}
+.hero_content item p{
+    color: #fff;
+    font-size: 15px;
+    margin: 25px 0;
+    line-height: 1.6;
+}
+.hero_content-item .btn{
+    padding: 15px;
+}
 
 
 
