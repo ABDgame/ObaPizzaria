@@ -5,7 +5,7 @@ grabCursor: true,
 speed: 900,
 loop: true,
 pagination{
-  el: "."
-}
-
+  el: ".swiper-pagination",
+  clickable true,
+ }
 }),
