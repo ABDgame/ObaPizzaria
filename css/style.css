@@ -140,6 +140,9 @@ header.active{
 .hero_container{
     margin:0 !important; 
 }
+.swiper-wrapper{
+    margin: 0 60px;
+}
 .hero_content-item{
     padding-right: 10px;
 }
@@ -157,7 +160,13 @@ header.active{
 .hero_content-item .btn{
     padding: 15px 40px;
 }
-
+.swiper-pagination{
+    position: absolute;
+    left: 0 !important;
+    padding-left: 130px;
+    display: flex;
+    align-items: center;
+}
 
 
 
