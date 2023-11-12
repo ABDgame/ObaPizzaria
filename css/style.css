@@ -99,7 +99,7 @@ header.active{
 }
 .logo{
     font-family: 'Dancing Script', cursive;
-    color: black;
+    color: #fff;
     font-weight: 700;
     font-size: 32px;
 }
@@ -111,7 +111,7 @@ header.active{
     transform: translateX(0);
 }
 .menu li a {
-    color: black;
+    color: #fff;
     font-size: 18px;
     transition: .3s;
 }
@@ -123,6 +123,25 @@ header.active{
 .toggle_icon{
     display: none;
     font-size: 40px;
+}
+
+/* =============== hero section =============== */
+.hero{
+    background: url(./img/pizza.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 180px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.hero_container{
+    margin:0 !important; 
+}
+.hero_content-item{
+    padding
 }
 
 
