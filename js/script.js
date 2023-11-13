@@ -23,4 +23,5 @@ function scrollHeader(){
   }
 }
 
-window.addEventListener('scroll', scrollHeader)
+window.addEventListener('scroll', scrollHeader);
+
