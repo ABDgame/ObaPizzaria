@@ -226,6 +226,92 @@ header.active{
 }
     
 /* ============ offer section ========== */
-
-
-
+.food_container{
+  display: grid;
+  grid-template-columns: repeat(3.1fr);
+  column-gap: 30px;
+}
+.food ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 40px;
+  padding: 0 20px;
+}
+.food ul li{
+  cursor: pointer;
+  user-select: none;
+}
+.food ul li.active{
+  background-color: var(--bg-color);
+  padding: 8px 25px;
+  border-radius: 50px;
+  color: #fff;
+}
+.food_item{
+  background-color: var(--bg-color);
+  border-radius: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 40px;
+}
+.food_imgBox{
+  height: 55%;
+  background-color: #eee;
+  border-top-left-radius: 15px;
+  border-top-right-radius:15px; 
+  border-bottom-left-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.food_imgBox img{
+  max-width: 100%;
+  max-height: 145px;
+  transition: .3s;
+}
+.food_imgBox:hover img{
+  transform: scale(1.1);
+}
+.food_content{
+  padding: 20px;
+  margin-bottom: 50px;
+  color: #fff;
+}
+.food_content h3{
+  font-weght: 600;
+  font-size: 20px;
+}
+.food_content p{
+  margin: 10px 0 20px;
+  font-size: 14px;
+}
+.food_footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.food_footer span{
+  font-size: 18px;
+}
+.food_footer icon{
+ background-color: var --yellow-color;
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ padding: 20px;
+ display: inline-flex;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ color: #fff;
+ font-size: 24px;
+}
+.food .btn{
+ margin: auto;
+ margin-top: 30px;
+}
+@media screen and{
+    
+}
