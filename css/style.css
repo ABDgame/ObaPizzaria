@@ -201,5 +201,25 @@ header.active{
     color: #fff;
     font-family: 'Dancing Script', cursive;
 }
+.offer_imgBox{
+    width: 150px;
+    height: 170px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid var --yellow-color;
+}
+.offer_content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    font-size: 20px;
+}
+.offer_content .off{
+    font-size: 14px;
+}
+.offer_content .off b{
+    font-size: 40px;
+}
+
 
     
