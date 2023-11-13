@@ -22,3 +22,5 @@ function scrollHeader(){
    header.classList.remove('active');
   }
 }
+
+window.addEventListener('scroll', scrollHeader)
