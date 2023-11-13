@@ -179,6 +179,27 @@ header.active{
     height: 20px !important;
 }
 
-
+/* ============ offer section ========== */
+.offer{
+    padding-top: 90px;
+    height: auto;
+}
+.offer_container{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+.offer_item{
+    background-color: var(--bg-color);
+    padding: 20px;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    border-radius: 10px;
+    width: 50%;
+    height: 220px;
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+}
 
     
