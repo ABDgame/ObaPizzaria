@@ -312,6 +312,25 @@ header.active{
  margin: auto;
  margin-top: 30px;
 }
-@media screen and{
-    
+/*=========== about section   =================*/
+.about{  
+  background-color: var(--bg-color);
 }
+.about_container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  gap: 40px;
+}
+.about_imgBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about_container .section_title{
+  text-align: left;
+  margin-bottom: 15px;
+}
+.
