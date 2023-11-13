@@ -202,7 +202,7 @@ header.active{
     font-family: 'Dancing Script', cursive;
 }
 .offer_imgBox{
-    width: 150px;
+    width: 170px;
     height: 170px;
     border-radius: 50%;
     overflow: hidden;
@@ -220,6 +220,9 @@ header.active{
 .offer_content .off b{
     font-size: 40px;
 }
-
+.offer_item button{
+    font-size: 16px;
+    white-space: nowrap;
+}
 
     
