@@ -481,6 +481,22 @@ header.active{
     position: relative;
 }
 .client_img img{
-    border-radius: 50%;
-    
+    border-radius: 50%;  
+}
+.client_img::before{
+    content:'';
+    position: absolute;
+    top: -13px;
+    left: 35px;
+    width: 20px;
+    height: 20px;
+    background-color: var --yellow-color;
+    transform: rotate(45deg);
+    z-index: -1;
+
+
+
+
+
+
 }
