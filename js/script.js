@@ -25,7 +25,7 @@ function scrollHeader(){
 
 window.addEventListener('scroll', scrollHeader);
 /* ============== Cliente ===============*/
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".client_container", {
   navigaton:{
     nextE1: ".swiper-button-next",
     prevE1: ".swiper-button-prev",
