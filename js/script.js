@@ -48,3 +48,19 @@ var swiper2 = new Swiper(".client_container", {
 /* ============ scroll Action header =========== */
 let section = document.querySelectorAll('section[id]');
 
+section.forEach(current => {
+    const sectionHeight = current.offsetHeight;
+    const sectionTop = current.offsetTop - 40;
+    sectionId = current.getAttribute('id');
+
+    if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
+      document.querySelector('.menu a[href*='+ sectionId + ]').classList.add('active');
+    } else {
+      document.querySelector('.menu a[href*='+ sectionId + ]').classList.remove('active');
+    } 
+    }
+  })
+}
+
+window.addEventListener('scroll', activeLink)
+
