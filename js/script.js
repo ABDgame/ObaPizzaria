@@ -25,3 +25,7 @@ function scrollHeader(){
 
 window.addEventListener('scroll', scrollHeader);
 
+/*==============  Cliente   ==============*/
+var swiper = new Swiper(".mySwiper",
+  
+});
