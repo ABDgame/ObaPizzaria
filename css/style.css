@@ -493,10 +493,5 @@ header.active{
     background-color: var --yellow-color;
     transform: rotate(45deg);
     z-index: -1;
-
-
-
-
-
-
 }
+
