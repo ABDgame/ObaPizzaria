@@ -26,11 +26,11 @@ function scrollHeader(){
 window.addEventListener('scroll', scrollHeader);
 /* ============== Cliente ===============*/
 var swiper2 = new Swiper(".client_container", {
-  slidePerView: 2,
+  slidesPerView: 2,
   spaceBetween: 30,
   grabCursor: true,
   loop: true,
-  navigaton:{
+  navigation:{
     nextE1: ".swiper-button-next",
     prevE1: ".swiper-button-prev",
   },
