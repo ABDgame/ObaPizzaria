@@ -455,6 +455,8 @@ header.active{
     user-select: none;
     padding: 0;
     padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
 }
 .client_item{
     padding-bottom: 100px;
