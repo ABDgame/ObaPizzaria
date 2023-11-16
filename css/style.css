@@ -494,4 +494,28 @@ header.active{
     transform: rotate(45deg);
     z-index: -1;
 }
-
+.swiper-button-next{
+    right: 50% !important;
+}
+.swiper-button-prev{
+    left: 50% !important;
+}
+.swiper-button-next::after,
+.swiper-button-next::after{
+    position: absolute;
+    bottom: -185s;
+    right: -200%;
+    background-color: var --yellow-color;
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px !important;
+    font-weight: 700;
+}
+.swiper-button-prev::after{
+    left: -200%;
+}
