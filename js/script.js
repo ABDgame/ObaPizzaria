@@ -36,11 +36,11 @@ var swiper2 = new Swiper(".client_container", {
   },
   breakpoints: {
     576: {
-      slidePerView: 2,
+      slidesPerView: 2,
       spaceBetween: 30,
     },
     250: {
-      slidePerView: 1,
+      slidesPerView: 1,
     }
   }
 });
