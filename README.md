@@ -1,7 +1,7 @@
 # ObaPizzaria
 Landing Page Responsiva para Pizzaria com HTML, CSS e JavaScript!  
 
-CÓDIGO FONTE:
+# CÓDIGO FONTE:
 #
 [ X  ] https://youtu.be/Ed0uh9Mbe8M?si=1E_S5oXFNIZ7xAFy
 #
@@ -15,14 +15,14 @@ CÓDIGO FONTE:
  - https://www.resizepixel.com/pt/edit
 
 # Imagens:
-01 - https://www.freepik.com/
-02 - https://www.storyset.com/
-03 - https://www.undraw.com/
-04 - https://www.pixabay.com/
-05 - https://www.unsplash.com/
-06 - https://www.pixabay.com/
-07 - https://www.flaticon.com/
-08 - https://www.pngegg.com/
+- https://www.freepik.com/
+- https://www.storyset.com/
+- https://www.undraw.com/
+- https://www.pixabay.com/
+- https://www.unsplash.com/
+- https://www.pixabay.com/
+- https://www.flaticon.com/
+- https://www.pngegg.com/
 
 
 
