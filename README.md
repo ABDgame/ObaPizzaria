@@ -1,5 +1,5 @@
 # ObaPizzaria
-Landing Page Responsiva para Pizzaria com HTML, CSS e JavaScript!  
+Site Responsivo para Pizzaria com HTML, CSS e JavaScript!  
 
 # CÓDIGO FONTE:
  - https://youtu.be/Ed0uh9Mbe8M?si=1E_S5oXFNIZ7xAFy
@@ -9,6 +9,9 @@ Landing Page Responsiva para Pizzaria com HTML, CSS e JavaScript!
  - https://www.youtube.com/watch?v=wkDAd26xf5w
 #
  - https://www.youtube.com/watch?v=xSC1dfyBLFU
+
+# Color Palette:
+ - https://mycolor.space
 
 # Editor de Imagens Online:
  - https://www.resizepixel.com/pt/edit
