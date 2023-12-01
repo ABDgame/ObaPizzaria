@@ -1,5 +1,5 @@
 # ObaPizzaria
-Site Responsivo para Pizzaria com HTML, CSS e JavaScript!  
+Site Responsivo para Pizzaria com HTML, CSS, JavaScript e uma pitadinha de SCSS!  
 
 # CÓDIGO FONTE:
  - https://youtu.be/Ed0uh9Mbe8M?si=1E_S5oXFNIZ7xAFy
