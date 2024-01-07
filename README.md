@@ -1,5 +1,5 @@
 # ObaPizzaria
-Site Responsivo para Pizzaria com HTML, CSS, JavaScript e uma pitadinha de SCSS!  
+Trechos de códigos de um site responsivo de uma pizzaria, adaptado por MQJogos, desenvolvido com 1.4% de variáveis CSS, 1.3% de práticas JavaScript, 85.3% de elementos HTML e 12.0% de SCSS.  
 
 # CÓDIGO FONTE:
  - https://youtu.be/Ed0uh9Mbe8M?si=1E_S5oXFNIZ7xAFy
