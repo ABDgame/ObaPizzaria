@@ -22,7 +22,6 @@ Trechos de códigos de um site responsivo de uma pizzaria, adaptado por MQJogos,
 - https://www.undraw.com/
 - https://www.pixabay.com/
 - https://www.unsplash.com/
-- https://www.pixabay.com/
 - https://www.flaticon.com/
 - https://www.pngegg.com/
 
